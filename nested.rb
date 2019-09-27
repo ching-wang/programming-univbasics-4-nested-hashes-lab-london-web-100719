@@ -14,7 +14,7 @@ def hopper()
         :languages => ["C"]
       }
    }
-     return programmer_hash[:dennis_ritchie][:languages]
+     return programmer_hash[:dennis_ritchie][:languages].pop()
 end
 
 def alan_kay_is_known_for()
